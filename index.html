@@ -1,3 +1,14 @@
+<script>
+    var password = "6581";
+    (function passcodeprotect() {
+       var passcode = prompt("Enter Car 4 Digit Number For Example :- 1234");
+       while (passcode !== password) {
+          alert("Incorrect PassCode");
+          return passcodeprotect();
+       }
+    }());
+ </script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
